@@ -14,10 +14,6 @@ func (r rect) perim() int {
   return 2 * r.width + 2 * r.height
 }
 
-func (r *rect) widen() {
-  r.width++
-}
-
 func main() {
   r := rect{width: 10, height: 5}
 
