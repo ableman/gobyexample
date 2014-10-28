@@ -23,4 +23,9 @@ func main() {
 	for j := 1; j <= 9; j++ {
 		jobs <- j
 	}
+	close(jobs)
+
+	for a := 1; a <= 9; a++ {
+		<-results
+	}
 }
