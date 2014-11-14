@@ -15,9 +15,9 @@ func main() {
 
 	flag.Parse()
 
-	fmt.Println("word: ", *wordPtr)
-	fmt.Println("numb: ", *numbPtr)
-	fmt.Println("fork: ", *boolPtr)
-	fmt.Println("svar: ", svar)
-	fmt.Println("tail: ", flag.Args())
+	fmt.Println("word:", *wordPtr)
+	fmt.Println("numb:", *numbPtr)
+	fmt.Println("fork:", *boolPtr)
+	fmt.Println("svar:", svar)
+	fmt.Println("tail:", flag.Args())
 }
